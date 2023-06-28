@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO APP</title>
+    <link rel="stylesheet" href="bootstrap-4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="heading">
+        <h3 class="text-center m-4">TO-DO APP</h3>
+    </div>
+    <div class="card items m-4 ml-auto mr-auto">
+        <div class="input my-4 d-flex justify-content-center">
+            <input type="text" id="input" class="mr-4" placeholder="add tasks...">
+            <input type="hidden" id="saveindex">
+            <button class="btn btn-primary px-3" id="add">add</button>
+            <button class="btn btn-primary px-3" id="savetaskbtn" style="display: none;">save</button>
+            <div class="btn btn-primary px-3 ml-3" id="clearbtn">clear</div>
+        </div>
+
+        <div id="add-items" class="m-3 overflow">
+
+        </div>
+    </div>
+
+
+
+    <script src="todo.js"></script>
+
+</body>
+
+</html>
